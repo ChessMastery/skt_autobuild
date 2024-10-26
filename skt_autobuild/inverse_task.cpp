@@ -64,7 +64,7 @@ void inverse_task_solve(inverse_task_data& inv_struct, vector<double>& synthetic
    // calculate functional
    double J_old = 0.0, J_new = 0.0;
    // iterative process
-   int it_max = 50;
+   int it_max = 2;
    for (int it = 0; it < it_max; it++)
    {
       if (it == 0)
